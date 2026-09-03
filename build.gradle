@@ -42,4 +42,5 @@ tasks.register('runClient', JavaExec) {
 	description = 'Run RuneLite with the Rapid Warning plugin loaded'
 	classpath = sourceSets.test.runtimeClasspath
 	mainClass = 'com.rapidwarning.RapidWarningPluginTest'
+	jvmArgs '-ea'
 }
